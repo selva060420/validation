@@ -1,0 +1,63 @@
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,intial-scale=1.0">
+<title>form 2 with validation</title>
+<link rel="stylesheet" href="form2withvalidationcss.css">
+<script defer  src="form3withvalidationjs.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+                                         
+
+</head>
+<body>
+
+<section class="container">
+<div id="error"></div>
+<h3>Contact Support</h3>
+
+<form id="form" class="form"  method="GET">
+<div class="text1 "><label for="firstname" >First Name</label><input type="text" id="firstname"  >
+<i  class="  fas fa-check-circle"></i>
+<i   class="fas fa-exclamation-circle"></i>
+<small>error message</small>
+<br></div>
+
+<div class="text1 "><label for="email">Email</label><input type="email" id="email">
+<i  class="fas fa-check-circle"></i>
+<i   class="fas fa-exclamation-circle"></i>
+<small>error message</small>
+<br></div>
+
+<div class="text1"><label for="phone">Phone Number</label><input type="text" id="phone" >
+<i   class="fas fa-check-circle"></i>
+<i  class="fas fa-exclamation-circle"></i>
+<small>error message</small>
+<br></div>
+
+<div class="text1" >
+<span class="out">Choose an option</span>
+<select id="choose" >
+
+<option></option>
+
+<option>Issue1</option>
+<option>Issue2</option>
+<option>Issue3</option>
+</select>
+<i  class="fas fa-check-circle"></i>
+<i  class="fas fa-exclamation-circle"></i>
+<small id="demo">error message</small>
+
+<br>
+</div>
+<div class="text1"><label for="large">Let us know what you need help with...</label><input type="text" id="large">
+<i  class="fas fa-check-circle"></i>
+<i class="fas fa-exclamation-circle"></i>
+<small>error message</small>
+<br></div>
+
+<div class="btnspace">
+<input id="submit" class="button" type="submit" value="Submit" ></div>
+</form>
+<div class="footer"><p id="ends" ></p></div>
+</section>
+
+</body>

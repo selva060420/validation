@@ -1,0 +1,136 @@
+.{
+box-sizing: border-box;
+}
+body{
+background-color:hsl(227, 100%, 93%);
+}
+.container{
+background: white;
+    width: 585px;
+height:650px;
+    max-width: 100%;
+    overflow: hidden;
+    position: absolute;
+    left: 31%;
+top:48px;
+
+}
+.container h3{
+color: blue;
+   color: blue;
+    font-size: 35px;
+    padding: 11px 0px 0px 0px;
+    margin: 0px 30px;
+
+}
+.container .form{
+padding: 0px 40px;
+    box-sizing: border-box;
+
+}
+.container  .text1 {
+position: relative;
+    
+    margin: 0px 0px;
+
+}
+.container label{
+position: relative;
+    left: 10px;
+    top: 28px;
+color: blue;
+}
+.container input{
+width: 100%;
+height:60px;
+    padding: 25px 0px 0px 9px;
+border: 3px solid blue;
+outline:none;
+font-size:26px;
+
+
+}
+.out{
+position: absolute;
+    margin: 0px 0px 0px 0px;
+    color: blue;
+}
+.container .footer{
+position: relative;
+margin: 0 0px 30px 40px;
+
+}
+.container form #large{
+height:100px;
+}
+select{
+position: relative;
+    width: 100%;
+    height: 60px;
+    margin: 17px 0px 0px 0px;
+   padding-bottom: 24px;
+border: 3px solid blue;
+color: blue;
+outline:none;
+}
+.btnspace .button{
+width: 120;
+    height: 49px;
+    position: relative;
+    background-color: blue;
+    color: white;
+text-decoration:none;
+   padding: 11px 57px 26px 30px;
+margin:-10px 0px 0px 0px;
+font-size:18px;
+}
+.footer  p{
+color:#a50ba5;
+    margin: 0px;
+}
+
+
+.btnspace{
+    margin: -11px 0px 0px 0px;
+}
+
+  .fa-check-circle {
+position:relative;
+ left:479px;
+top: -28px;
+visibility:hidden;
+}
+ .fa-exclamation-circle{
+position:relative;
+ left:460px;
+top: -28px;
+visibility:hidden;
+}
+small{
+position: relative;
+    top: -30;
+    left: 292;
+visibility:hidden;
+
+}
+
+.success input,.success select{
+border-color:#2ecc71;
+}
+
+ .error input,.error select{
+border-color:#e74c3c;
+}
+
+ .success .fa-check-circle{
+visibility:visible;
+color:#2ecc71;
+}
+ .error .fa-exclamation-circle{
+visibility:visible;
+color:#e74c3c;
+}
+.error small{
+visibility:visible;
+color:#e74c3c;
+}
